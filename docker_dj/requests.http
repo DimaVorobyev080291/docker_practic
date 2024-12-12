@@ -1,0 +1,11 @@
+# примеры API-запросов
+
+@baseUrl = http://localhost:8000/
+
+# получение колицества ингредиентов для омлета
+GET {{baseUrl}}/omlet/?servings=80
+
+###
+
+# получение колицества ингредиентов для пасты
+GET {{baseUrl}}/pasta/?servings=50
