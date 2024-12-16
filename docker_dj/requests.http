@@ -8,4 +8,9 @@ GET {{baseUrl}}/omlet/?servings=80
 ###
 
 # получение колицества ингредиентов для пасты
-GET {{baseUrl}}/pasta/?servings=50
+GET {{baseUrl}}/pasta/?servings=150
+
+###
+
+# получение колицества ингредиентов для пасты 1 порция
+GET {{baseUrl}}/pasta/
